@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IndusRoboTix - Pakistan's Premier Robotics Solutions</title>
+    <meta name="description" content="Custom robotic kits and precision-designed acrylic chassis. IndusRoboTix provides quality robotics solutions for students, educators, and makers across Pakistan." />
+    <meta name="keywords" content="robotics, Pakistan, robotic kits, STEM education, Arduino, custom chassis, electronics, automation" />
+    <meta name="author" content="Furqan Khatti" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="IndusRoboTix - Pakistan's Premier Robotics Solutions" />
+    <meta property="og:description" content="Custom robotic kits with precision-designed acrylic chassis. Quality robotics for education and innovation." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://indusrobotix.pk" />
+    <meta property="og:image" content="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/5a266280-efbb-4532-ab99-0c6a7a00ac2c/id-preview-b412386f--d864ef60-be9e-48e1-8f35-39cedeb57c0c.lovable.app-1768375750654.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="IndusRoboTix" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@IndusRoboTix" />
+    <meta name="twitter:creator" content="@IndusRoboTix" />
+    <meta name="twitter:title" content="IndusRoboTix - Pakistan's Premier Robotics Solutions" />
+    <meta name="twitter:description" content="Custom robotic kits with precision-designed acrylic chassis. Quality robotics for education and innovation." />
+    <meta name="twitter:image" content="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/5a266280-efbb-4532-ab99-0c6a7a00ac2c/id-preview-b412386f--d864ef60-be9e-48e1-8f35-39cedeb57c0c.lovable.app-1768375750654.png" />
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://indusrobotix.pk" />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="/manifest.json" />
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" as="style" />
+    
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#002b5b" />
+    
+    <!-- iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="IndusRoboTix" />
+    
+    <!-- Android -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    
+    <!-- Microsoft -->
+    <meta name="msapplication-TileColor" content="#002b5b" />
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png" />
+    
+    <!-- Preconnect to important origins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
+  <body>
+    <noscript>
+      <div style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: white; z-index: 9999; display: flex; justify-content: center; align-items: center; font-family: Arial, sans-serif;">
+        <div style="text-align: center; padding: 20px;">
+          <h1 style="color: #002b5b; margin-bottom: 20px;">JavaScript Required</h1>
+          <p style="color: #4a5568; margin-bottom: 20px;">This website requires JavaScript to function properly. Please enable JavaScript in your browser settings.</p>
+          <p style="color: #4a5568;">For the best experience, we recommend using a modern browser like Chrome, Firefox, or Edge.</p>
+        </div>
+      </div>
+    </noscript>
+    
+    <div id="root"></div>
+    
+    <!-- Loading fallback -->
+    <div id="loading-fallback" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #002b5b; z-index: 9998; display: flex; justify-content: center; align-items: center;">
+      <div style="text-align: center; color: white;">
+        <div style="width: 60px; height: 60px; border: 4px solid #57c5b6; border-top-color: transparent; border-radius: 50%; animation: spin 1s linear infinite; margin: 0 auto 20px;"></div>
+        <p>Loading IndusRoboTix...</p>
+      </div>
+    </div>
+    
+    <style>
+      @keyframes spin {
+        to { transform: rotate(360deg); }
+      }
+    </style>
+    
+    <script>
+      // Show loading fallback immediately
+      document.getElementById('loading-fallback').style.display = 'flex';
+      
+      // Hide loading fallback when app is loaded
+      window.addEventListener('load', function() {
+        setTimeout(function() {
+          document.getElementById('loading-fallback').style.display = 'none';
+        }, 500);
+      });
+    </script>
+  </body>
+</html>
